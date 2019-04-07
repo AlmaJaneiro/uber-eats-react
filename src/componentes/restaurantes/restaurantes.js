@@ -16,6 +16,7 @@ export default class Restaurante extends Component {
         return (
             <>
                 <section id="restaurantes">
+                    <h3>Restaurantes Cercanos</h3>
                     <Row>
                         {elements.map((value) => {
                             return  <Col xs={12} md={4} key={value.toString()} value={value}>
