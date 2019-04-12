@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-import App from './App';
+
 import Perfil from './componentes/perfil/perfil';
 import Login from './componentes/login/login';
 import Restaurante from './componentes/restaurantes/restaurantes';
@@ -13,8 +13,9 @@ import Footer from './componentes/footer/footer';
 
 ReactDOM.render(
         <main className="App">
-            <Header/>
+            
             <Router>
+            <Header/>
                 <Switch>
                     <Route exact path="/" component={Restaurante}/>
                     <Route exact path="/restaurantes" component={Restaurante}/>
