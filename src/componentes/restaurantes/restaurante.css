@@ -18,3 +18,23 @@
     transition: all 200ms ease-in;
     transform: scale(1.02);
 }
+@media only screen and (max-width: 800px) and (min-width:100px) {
+    
+        .card{
+            height: auto!important;
+        }
+  }
+.card{
+    height: 580px;
+}
+.btn-success{
+width: 100%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.precio{
+    text-align: center;
+}

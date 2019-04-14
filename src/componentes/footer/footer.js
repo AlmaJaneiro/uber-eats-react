@@ -11,7 +11,7 @@ class Footer extends React.Component{
         return(
             <>
             <section id="footer">
-                <Row><Col xs={12} className="izquierdo" > <img src={logo} width="150" alt=""/></Col></Row>
+                <Row><Col xs={12} className="izquierdo" > <img src={logo} width="150" alt=""/><hr/></Col></Row>
                 <Row className="space">
                     <Col className="texto" xs={12} md={4}>
                         <p>Español</p>
