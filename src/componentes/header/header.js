@@ -14,7 +14,7 @@ class Header extends React.Component{
     render(){
         return(
             <>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="fixed-top">
                 <Navbar.Brand>
                     <Link to="/"> <img src={logo} width="120" alt="" /> </Link>
                 </Navbar.Brand>
